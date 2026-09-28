@@ -1,0 +1,26 @@
+# Objetivo: único punto editable para repositorios y tamaño del lote.
+repositories = [
+    'https://github.com/JoydeepMallick/Wallpapers.git',
+    'https://github.com/Samyc2002/Anime-Wallpapers.git',
+    'https://github.com/vyrx-dev/Wallpapers.git',
+    'https://github.com/D3Ext/aesthetic-wallpapers.git',
+    'https://github.com/dharmx/walls.git',
+    'https://github.com/fr0st-xyz/wallz.git',
+    'https://github.com/orangci/walls.git',
+    'https://github.com/mylinuxforwork/wallpaper.git',
+    'https://github.com/Asthetic/AnimeBackgrounds.git',
+    'https://github.com/FrenzyExists/wallpapers.git',
+    'https://github.com/maxhu08/wallpapers.git',
+    'https://github.com/JoshuaThadi/Wall-E-Desk.git',
+    'https://github.com/harilvfs/wallpapers.git',
+    'https://github.com/lordofhunger/wallpapers.git',
+    'https://github.com/orangci/walls-catppuccin-mocha.git',
+    'https://github.com/VincentLanglet/wallpaper.git',
+    'https://github.com/Ajaymanikandan0x/hyprland_wallpapers.git',
+    'https://github.com/ladybug-me/wallpaper-collection.git',
+    'https://github.com/michaelScopic/Wallpapers.git',
+    'https://github.com/makccr/wallpapers.git',
+    'https://github.com/linuxdotexe/nordic-wallpapers.git',
+    'https://github.com/DenverCoder1/minimalistic-wallpaper-collection.git',
+]
+batch_size = 16
