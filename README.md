@@ -20,20 +20,16 @@ inputs.wallz.url = "git+ssh://git@github.com/jad21/wallz.git";
 home.packages = [ inputs.wallz.packages.${pkgs.system}.default ];
 ```
 
-El wrapper existente `bin/rotate-wallpaper.sh` prefiere el binario Go cuando
-está en `PATH`; mientras no se instale, conserva el ejecutor Python como
-compatibilidad.
-
 ## Comandos
 
 ```sh
-rotate-wallpaper --next
-rotate-wallpaper --prepare
-rotate-wallpaper --refill
-rotate-wallpaper --rebind-gallery
-rotate-wallpaper --next-batch [--limit 1..100]
-wallpaper-index folders https://github.com/owner/repository
-wallpaper-index refresh
+wallz rotate --next
+wallz rotate --prepare
+wallz rotate --refill
+wallz rotate --rebind-gallery
+wallz rotate --next-batch --limit 1
+wallz index folders https://github.com/owner/repository
+wallz index refresh
 ```
 
 `WALLPAPER_DIR`, `CACHE_FILE`, `DMS_BIN` y `WALLZ_CONFIG` permiten ajustar las
